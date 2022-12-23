@@ -1,11 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+BookFinder is an app that integrates with the Library of Congress API ( https://www.loc.gov/apis/ )
 
 Things you may want to cover:
 
 * Ruby version
+
+3.1.3
 
 * System dependencies
 
