@@ -8,6 +8,10 @@ Things you may want to cover:
 
 3.1.3
 
+* Rails version
+
+7.0.4
+
 * System dependencies
 
 * Configuration
@@ -20,6 +24,5 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
+* Deployment instruction
 * ...
