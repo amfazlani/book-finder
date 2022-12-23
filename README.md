@@ -1,6 +1,6 @@
 # README
 
-BookFinder is an app that integrates with the Library of Congress API ( https://www.loc.gov/apis/ )
+Athenaeum is an app that integrates with the Library of Congress API ( https://www.loc.gov/apis/ )
 
 Things you may want to cover:
 
