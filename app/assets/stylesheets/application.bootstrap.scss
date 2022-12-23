@@ -1,6 +1,10 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+#app-container {
+  padding: 15px;
+}
+
 #logo-text {
   display: inline-block;
   font-size: 25px;
@@ -12,4 +16,31 @@
 
 .card-title {
   font-size: 16px;
+  text-align: center;
+}
+
+.card-img-top {
+  margin: 0 auto;
+  display: block;
+}
+
+.loc-btn {
+  margin: 0 auto;
+  display: block;
+  max-width: 250px;
+  background-color: #5057a6;
+  color: white;
+
+  &:hover {
+    background-color: #5057a6;
+    color: white;
+  }
+}
+
+.card-row {
+  padding-bottom: 15px;
+}
+
+#logo-img {
+  margin-right: 10px;
 }
