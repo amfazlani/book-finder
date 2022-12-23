@@ -3,14 +3,18 @@
       <% results.each do |result| %>
         <div class="col-md-6">
           <div class="card">
-            <% if result[:image_url] %>
+            <% if result && result[:image_url] %>
               <img class="card-img-top" src="<%=result[:image_url]%>" alt="" style="width: 300px;height: 300px">
             <% else %>
               <img class="card-img-top" src="https://via.placeholder.com/300" alt="" style="width: 300px;height: 300px">
             <% end %>
             <div class="card-body">
               <h5 class="card-title"><%= result[:title]%> </h5>
-              <a href="<%= result[:link_to_loc]%>" class="btn loc-btn" target="_blank">Library of Congress</a>
+
+              <h6 class="card-author"> <%= result[:contributors] %> </h6>
+              <h6 class="card-author"> <%= result[:published_at] %> </h6>
+
+              <a href="<%= result[:link_to_loc]%>" class="btn loc-btn primary-btn-color" target="_blank">Library of Congress</a>
             </div>
           </div>
         </div>
